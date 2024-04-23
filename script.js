@@ -17,3 +17,6 @@ if(fotoAttiva+1 == arrayFoto.length){
 }else{
     fotoSuccessiva = fotoAttiva + 1;
 }
+
+//attivo la foto successiva
+arrayFoto[fotoSuccessiva].classList.add("active");
