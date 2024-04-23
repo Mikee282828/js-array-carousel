@@ -19,3 +19,27 @@
 .active{
     display:block;
 }
+.frame{
+    position:relative;
+}
+.precedente,.successivo{
+    position:absolute;
+    width:3rem;
+    height:3rem;
+    border-radius: 50%;
+    background-color: rgba(255, 255, 255, 0.484);
+    left:50%;
+    transform: translate(-50%,0);
+    text-align:center;
+    font-size: 2.5rem;
+    cursor: pointer;
+}
+.precedente{
+    top:1rem;
+}
+.successivo{
+    bottom:1rem;
+}
+.precedente>.fa-chevron-up,.successivo>.fa-chevron-down{
+    line-height: 3rem;
+}

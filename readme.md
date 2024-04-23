@@ -7,4 +7,7 @@ m2
 -se la foto attualmente attiva è l'ultima della lista allora la foto successiva sarà la prima della lista 
 -attivo la foto succesiva
 
+m3
+-creo una freccia centrata in alto e una centrata in basso 
+
 
