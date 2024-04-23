@@ -59,4 +59,5 @@
 }
 .anteprimaActive{
     filter: brightness(100%);
+    border:white solid 0.2rem;
 }

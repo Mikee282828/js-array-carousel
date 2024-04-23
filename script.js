@@ -1,4 +1,5 @@
 let arrayFoto = document.querySelectorAll(".foto");
+let arrayAnteprima = document.querySelectorAll(".fotoAnteprima");
 let fotoAttiva;
 let fotoSuccessiva;
 let fotoPrecedente;
@@ -13,6 +14,7 @@ tastoPrecedente.addEventListener("click", function () {
         if (arrayFoto[i].classList.contains("active")) {
             fotoAttiva = i;
             arrayFoto[i].classList.remove("active");
+            arrayAnteprima[i].classList.remove("anteprimaActive");
         }
     }
     //cerco l'indice della foto precedente
@@ -24,6 +26,8 @@ tastoPrecedente.addEventListener("click", function () {
 
     //attivo la foto precedente
     arrayFoto[fotoPrecedente].classList.add("active");
+    //attivo l'anteprima precedente
+    arrayAnteprima[fotoPrecedente].classList.add("anteprimaActive");
 
     //stampo in pagina l'array foto per controllo
     console.log(arrayFoto);
@@ -37,6 +41,7 @@ tastoSuccessivo.addEventListener("click", function () {
         if (arrayFoto[i].classList.contains("active")) {
             fotoAttiva = i;
             arrayFoto[i].classList.remove("active");
+            arrayAnteprima[i].classList.remove("anteprimaActive");
         }
     }
     //cerco l'indice della foto successiva
@@ -48,6 +53,9 @@ tastoSuccessivo.addEventListener("click", function () {
 
     //attivo la foto successiva
     arrayFoto[fotoSuccessiva].classList.add("active");
+
+    //attivo l'anteprima successiva
+    arrayAnteprima[fotoSuccessiva].classList.add("anteprimaActive");
 
     //stampo in pagina l'array foto per controllo
     console.log(arrayFoto);
