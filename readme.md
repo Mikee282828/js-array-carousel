@@ -17,3 +17,9 @@ m4
 
 bonus1
 -fatto per sbaglio nelle milestone precedenti
+
+bonus2
+-creo un contenitore che contenga tutte e 5 le immagini accatastate
+-l'altezza complessiva del contenitore deve essere uguale a quella del suo contenitore (frame)
+-sposto le frecce in quest'ultimo contenitore
+-faccio le stesso operazioni fatte nelle milestone 1,2,3 sulle foto anteprima

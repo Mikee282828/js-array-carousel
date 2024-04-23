@@ -33,6 +33,7 @@
     text-align:center;
     font-size: 2.5rem;
     cursor: pointer;
+    z-index: 999;
 }
 .precedente{
     top:1rem;
@@ -42,4 +43,20 @@
 }
 .precedente>.fa-chevron-up,.successivo>.fa-chevron-down{
     line-height: 3rem;
+}
+.anteprima{
+    position:absolute;
+    right:0;
+    top:0;
+    display: flex;
+    flex-direction: column;
+    height:100%;
+}
+.fotoAnteprima{
+    height:20%;
+    object-fit: cover;
+    filter: brightness(20%);
+}
+.anteprimaActive{
+    filter: brightness(100%);
 }
