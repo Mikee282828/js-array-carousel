@@ -8,6 +8,8 @@ m2
 -attivo la foto succesiva
 
 m3
--creo una freccia centrata in alto e una centrata in basso 
+-creo una freccia centrata in alto e una centrata in basso
+-faccio le stesse operazioni dell' "m2" ma invece di cercare la foto successiva alla foto attualmente attiva, cerco la foto precedente alla foto attualmente attiva
+-collego le funzioni ai rispettivi pulsanti
 
 
