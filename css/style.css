@@ -3,3 +3,19 @@
     margin:0;
     padding:0;
 }
+.container{
+    height:100vh;
+    width:100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.foto{
+    display:none;
+    object-fit: cover;
+    width:70rem;
+    height:30rem;
+}
+.active{
+    display:block;
+}
